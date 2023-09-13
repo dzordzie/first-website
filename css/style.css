@@ -1,0 +1,102 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	background-image: url("../image/checkerboard-cross.png");
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333333;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.7rem 10%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+img {
+	width: 3rem;
+	height: auto;
+}
+
+a {
+	margin-left: 3.5rem;
+	font-size: 1.6rem;
+
+}
+
+main {
+	padding: 0 10%;
+}
+
+h1,h2,h3,p {
+	font-family: 'Roboto Serif', serif;
+	margin: 0;
+}
+
+a,
+.about h2 {
+	color: #ff0099;
+}
+
+.wiki h2,h3 {
+	text-align: center;
+}
+
+.about {
+	margin-top: 8rem;
+}
+.about h1 {
+	margin: 0;
+	font-size: 5rem;
+	font-weight: 500;
+}
+
+.about h2 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-top: 3rem;
+}
+
+.about p {
+	font-size: 1.7rem;
+	letter-spacing: 0.2rem;
+	margin-top: 2rem;
+	line-height: 1.5;
+}
+
+.wiki {
+	margin: 7rem 0;
+}
+
+.wiki h2 {
+	margin-top: 7rem;
+	font-size: 3rem;
+}
+
+.wiki h3 {
+	letter-spacing: 0.8rem;
+	font-weight: 500;
+}
+
+article h3 {
+	text-align: left;
+	font-size: 2rem;
+}
+
+article p{
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+	line-height: 1.5;
+}
+
+article div {
+	margin-top: 4rem;
+}
+
+.http {
+	margin-bottom: 10rem;
+}
